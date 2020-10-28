@@ -15,6 +15,7 @@ body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
   font-size: 15px;
+  background-color: rgb(243, 245, 245);
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7); }
   @media screen and (max-width: 992px) {
@@ -80,7 +81,7 @@ figure {
   position: fixed;
   overflow-y: scroll;
   z-index: 1001;
-  background: #f2f3f7;
+  background: rgb(230, 230, 230);;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -819,6 +820,12 @@ body.offcanvas {
       background: #b3e00d; }
     .progress-bar.color-8 span {
       color: #b3e00d; }
+  .progress-bar.color-9 {
+    background: #ce0de0; }
+    .progress-bar.color-9:after {
+      background: #ce0de0; }
+      .progress-bar.color-9 span {
+        color: #ce0de0; }
 
 .colorlib-feature {
   text-align: left;
